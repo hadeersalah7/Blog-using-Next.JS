@@ -1,3 +1,10 @@
+import { Fragment } from "react/jsx-runtime";
+import Hero from "../components/HomePage/hero";
+
 export default function HomePage() {
-  return <h1>Welcome to Next.js!</h1>;
+  return (
+    <Fragment>
+      <Hero />
+    </Fragment>
+  );
 }
